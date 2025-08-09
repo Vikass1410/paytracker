@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # paytracker
 
 A new Flutter project.
@@ -14,3 +15,10 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# paytracker<<<<<<< HEAD
+(your local README content)
+=======
+(remote README content)
+>>>>>>> (commit id)
+>>>>>>> 67f775193b3727ef18afaf0ccec93d775c546152
