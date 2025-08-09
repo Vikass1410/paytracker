@@ -1,5 +1,5 @@
 import 'dart:async';
-  // <-- Add this import
+// <-- Add this import
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import '../models/customer.dart';
@@ -285,7 +285,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                   return ListTile(
                     title: Text(customer.name),
-                    subtitle: Text(customer.mobile ?? 'No phone'),
+                    // Removed subtitle showing phone number
                     trailing: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -307,7 +307,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       );
                     },
-                    // Accessibility
                     contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     dense: true,
                     visualDensity: VisualDensity.compact,
